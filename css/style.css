@@ -1,0 +1,170 @@
+#header
+{
+      background-image: url(../imgs/events-heavenly-header.jpg);
+      width: 100%;
+      height: 660px;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      color: white;
+      position: relative;
+}
+.overlay
+{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(214, 46, 51 , 0.6);
+}
+.main
+{
+      margin-top: 200px;
+}
+.main h2 
+{
+      font-size: 60px;
+}
+#options
+{
+      width: 250px;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      z-index: 9999;
+      background-color: #414658;
+      /* transition: 0.5s; */
+      /* display: none; */
+}
+.close i 
+{
+      cursor: pointer;
+}
+.sideBar a 
+{
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      padding: 20px 8px 20px 32px;
+      transition: 0.5s;
+}
+.sideBar a:hover
+{
+      color: #D62E33;
+}
+.close
+{
+      width: 100%;
+      padding: 40px 35px 40px 0;
+}
+.open span
+{
+      font-size: 30px;
+      cursor: pointer;
+}
+.open
+{
+      position: absolute;
+      left: 0px;
+      top: 50%;
+      width: 110px;
+}
+#singers
+{
+      width: 50%;
+      margin: 100px auto;
+}
+#singers .parag
+{
+      display: none;
+      background-color: #ccc;
+      padding: 10px;
+}
+#singers h3
+{
+      padding: 10px;  
+      background-color: rgba(214, 46, 51 , 0.6);
+      margin: 0;
+      color: white;
+      cursor: pointer;
+}
+
+/***********************/
+#duration
+{
+      background-image: url(../imgs/invitation-2508607__340.jpg);
+      height: 330px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      position: relative;
+}
+.container
+{
+      padding: 100px 0;
+}
+.time
+{
+      padding: 50px 100px;
+      border: 1px solid #fff;
+      color: white;
+      text-align: center;
+}
+
+/**************************/
+#contact
+{
+      color: #444;
+      font-size: 17px;
+}
+#contact h3
+{
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+}
+#contact .data
+{
+      line-height: 26px;
+      margin-top: 35px;
+      margin-bottom: 25px;
+      margin-top: 20px;
+}
+#contact .data p
+{
+      padding: 10px;
+}
+#contact .data p span
+{
+      color: #D62E33;
+}
+.social-icons i 
+{
+      padding: 10px;
+      border: 1px solid #444;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: 0.5s;
+}
+.social-icons i:hover
+{
+      background-color: #D62E33;
+      color: white;
+      border: 1px solid #D62E33;
+}
+#contact .row
+{
+      margin-top: 40px;
+}
+.form span
+{
+      color:#D62E33 ;
+      font-weight: bold;
+}
+#contact button
+{
+      background-color: #D62E33;
+      color: white;
+      padding: 8px 15px;
+}
